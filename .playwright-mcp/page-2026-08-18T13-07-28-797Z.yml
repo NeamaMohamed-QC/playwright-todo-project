@@ -1,0 +1,126 @@
+- generic [ref=f4e2]:
+  - generic [ref=f4e3]:
+    - banner [ref=f4e5]:
+      - generic [ref=f4e8]:
+        - generic [ref=f4e9]:
+          - img "FLAG" [ref=f4e10]
+          - generic [ref=f4e11]: موقع حكومي مسجل لدى هيئة الحكومة الرقمية
+        - button "كيف تتحقق؟" [ref=f4e13] [cursor=pointer]
+    - navigation [ref=f4e16]:
+      - generic [ref=f4e17]:
+        - link [ref=f4e18] [cursor=pointer]:
+          - /url: /home
+          - img "Maeen Library Management" [ref=f4e19]
+        - generic [ref=f4e20]:
+          - list [ref=f4e21]:
+            - listitem [ref=f4e22]:
+              - link "الرئيسية" [ref=f4e23] [cursor=pointer]:
+                - /url: /home
+            - listitem [ref=f4e24]:
+              - link "الفهرس" [ref=f4e25] [cursor=pointer]:
+                - /url: /browse-index
+            - listitem [ref=f4e26]:
+              - link "البحث المتقدم" [ref=f4e27] [cursor=pointer]:
+                - /url: /advanced-search
+            - listitem [ref=f4e28]:
+              - link "المكتبات" [ref=f4e29] [cursor=pointer]:
+                - /url: /libraries
+            - listitem [ref=f4e30]:
+              - link [ref=f4e31] [cursor=pointer]:
+                - /url: https://kawla.gov.sa/about-complex/help/contact-us/
+                - img "Maeen Library Management" [ref=f4e32]
+                - text: تواصل معنا
+          - list [ref=f4e33]:
+            - listitem [ref=f4e34]:
+              - generic [ref=f4e35] [cursor=pointer]
+            - listitem [ref=f4e38]:
+              - img "language" [ref=f4e40] [cursor=pointer]
+            - listitem [ref=f4e41]:
+              - img "user" [ref=f4e43] [cursor=pointer]
+  - generic [ref=f4e45]:
+    - heading "حدث خطأ أثناء تحميل السجل" [level=2] [ref=f4e48]
+    - paragraph [ref=f4e49]: لم يتم تحديد رقم السجل
+    - link "العودة للفهرس" [ref=f4e50] [cursor=pointer]:
+      - /url: /browse-index
+  - generic [ref=f4e53]:
+    - paragraph [ref=f4e55]: "تاريخ آخر تعديل: 19/03/2025 - 4:13 م بتوقيت السعودية"
+    - contentinfo [ref=f4e57]:
+      - generic [ref=f4e58]:
+        - generic [ref=f4e59]:
+          - generic [ref=f4e60]:
+            - heading "ملخص" [level=6] [ref=f4e61]
+            - list [ref=f4e62]:
+              - listitem [ref=f4e63]:
+                - link "المطبوع" [ref=f4e64] [cursor=pointer]:
+                  - /url: /browse-index
+              - listitem [ref=f4e65]:
+                - link "مكتبة مجمع الملك عبدالعزيز" [ref=f4e66] [cursor=pointer]:
+                  - /url: /libraries
+              - listitem [ref=f4e67]:
+                - link "المخطوط" [ref=f4e68] [cursor=pointer]:
+                  - /url: /browse-index
+              - listitem [ref=f4e69]:
+                - link "المطبوعات النادرة" [ref=f4e70] [cursor=pointer]:
+                  - /url: /browse-index
+              - listitem [ref=f4e71]:
+                - link "تسجيل الدخول" [ref=f4e72] [cursor=pointer]:
+                  - /url: /my-account
+          - generic [ref=f4e73]:
+            - heading "روابط مهمة" [level=6] [ref=f4e74]
+            - list [ref=f4e75]:
+              - listitem [ref=f4e76]:
+                - link "مجمع الملك عبدالعزيز للمكتبات الوقفية" [ref=f4e77] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/home
+              - listitem [ref=f4e80]:
+                - link "الخصوصية وشروط الاستخدام" [ref=f4e81] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/privacy-policy/
+              - listitem [ref=f4e84]:
+                - link "المشاركة الإلكترونية" [ref=f4e85] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/about-complex/electronic
+              - listitem [ref=f4e88]:
+                - link "اتفاقية مستوى الخدمة" [ref=f4e89] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/service-level-agreement
+              - listitem [ref=f4e92]:
+                - link "الأسئلة الشائعة" [ref=f4e93] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/about-complex/help/faqs?tab=repo
+              - listitem [ref=f4e96]:
+                - link "تواصل معنا" [ref=f4e97] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f4e101]:
+            - generic [ref=f4e102]:
+              - heading "تابعنا على" [level=6] [ref=f4e103]
+              - list [ref=f4e104]:
+                - listitem [ref=f4e105]:
+                  - link [ref=f4e106] [cursor=pointer]:
+                    - /url: https://www.facebook.com/kawlaa.sa
+                    - img "المستودع الرقمي" [ref=f4e107]
+                - listitem [ref=f4e108]:
+                  - link [ref=f4e109] [cursor=pointer]:
+                    - /url: https://x.com/kawlaa_sa
+                    - img "المستودع الرقمي" [ref=f4e110]
+                - listitem [ref=f4e111]:
+                  - link [ref=f4e112] [cursor=pointer]:
+                    - /url: https://www.instagram.com/kawlaa_sa
+                    - img "المستودع الرقمي" [ref=f4e113]
+            - generic [ref=f4e114]:
+              - heading "أدوات الإتاحة والوصول" [level=6] [ref=f4e115]
+              - list [ref=f4e116]:
+                - listitem [ref=f4e117]:
+                  - link [ref=f4e118] [cursor=pointer]:
+                    - /url: "#"
+                    - img "المستودع الرقمي" [ref=f4e119]
+                - listitem [ref=f4e120]:
+                  - link [ref=f4e121] [cursor=pointer]:
+                    - /url: "#"
+                    - img "المستودع الرقمي" [ref=f4e122]
+                - listitem [ref=f4e123]:
+                  - link [ref=f4e124] [cursor=pointer]:
+                    - /url: https://deaf.dga.gov.sa/
+                    - img "المستودع الرقمي" [ref=f4e125]
+        - generic [ref=f4e126]:
+          - generic [ref=f4e127]:
+            - link "سياسة الخصوصية" [ref=f4e129] [cursor=pointer]:
+              - /url: https://kawla.gov.sa/privacy-policy
+            - paragraph [ref=f4e130]: جميع الحقوق محفوظة لمجمع الملك عبدالعزيز للمكتبات الوقفية © 2025
+            - paragraph [ref=f4e131]: "تاريخ آخر تعديل: 19/03/2025 - 4:13 م بتوقيت السعودية"
+          - img "المستودع الرقمي" [ref=f4e132]

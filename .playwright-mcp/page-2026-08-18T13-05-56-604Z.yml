@@ -1,0 +1,196 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - img "FLAG" [ref=e10]
+          - generic [ref=e11]: موقع حكومي مسجل لدى هيئة الحكومة الرقمية
+        - button "كيف تتحقق؟" [ref=e13] [cursor=pointer]
+    - navigation [ref=e16]:
+      - generic [ref=e17]:
+        - link [ref=e18] [cursor=pointer]:
+          - /url: /home
+          - img "Maeen Library Management" [ref=e19]
+        - generic [ref=e20]:
+          - list [ref=e21]:
+            - listitem [ref=e22]:
+              - link "الرئيسية" [ref=e23] [cursor=pointer]:
+                - /url: /home
+            - listitem [ref=e24]:
+              - link "الفهرس" [ref=e25] [cursor=pointer]:
+                - /url: /browse-index
+            - listitem [ref=e26]:
+              - link "البحث المتقدم" [ref=e27] [cursor=pointer]:
+                - /url: /advanced-search
+            - listitem [ref=e28]:
+              - link "المكتبات" [ref=e29] [cursor=pointer]:
+                - /url: /libraries
+            - listitem [ref=e30]:
+              - link [ref=e31] [cursor=pointer]:
+                - /url: https://kawla.gov.sa/about-complex/help/contact-us/
+                - img "Maeen Library Management" [ref=e32]
+                - text: تواصل معنا
+          - list [ref=e33]:
+            - listitem [ref=e34]:
+              - generic [ref=e35] [cursor=pointer]
+            - listitem [ref=e38]:
+              - img "language" [ref=e40] [cursor=pointer]
+            - listitem [ref=e41]:
+              - img "user" [ref=e43] [cursor=pointer]
+  - generic [ref=e44]:
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - img "المكتبات الوقفية" [ref=e48]
+        - generic [ref=e52]:
+          - heading "المكتبات الوقفية" [level=1] [ref=e53]
+          - generic [ref=e54]: نحن نهتم بالمكتبات الوقفية والمجموعات النادرة، ونعمل على حفظها وإتاحتها للباحثين وفق منهجية علمية ومعايير فنية، بما يسهم في دعم البحث العلمي ونشر المعرفة.
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img "المستودع الرقمي" [ref=e57]
+              - textbox "ابحث في المكتبة..." [ref=e58]
+            - button "بحث" [disabled] [ref=e59] [cursor=pointer]
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - heading "أبرز المكتبات" [level=5] [ref=e62]
+          - link "عرض الكل" [ref=e63] [cursor=pointer]:
+            - /url: /libraries
+        - generic [ref=e64]:
+          - generic [ref=e67]:
+            - img "تجربة" [ref=e69]
+            - generic [ref=e70]:
+              - heading "تجربة" [level=5] [ref=e72]
+              - generic:
+                - paragraph
+              - link "قراءة المزيد" [ref=e74] [cursor=pointer]:
+                - /url: /browse-index?library=23
+          - generic [ref=e77]:
+            - img "Kawla Library" [ref=e79]
+            - generic [ref=e80]:
+              - heading "Kawla Library" [level=5] [ref=e82]
+              - generic:
+                - paragraph
+              - link "قراءة المزيد" [ref=e84] [cursor=pointer]:
+                - /url: /browse-index?library=KAW
+          - generic [ref=e87]:
+            - img "King Abdulaziz Assambly | مكتبة الملك عبدالعزيز" [ref=e89]
+            - generic [ref=e90]:
+              - heading "King Abdulaziz Assambly | مكتبة الملك عبدالعزيز" [level=5] [ref=e92]
+              - paragraph [ref=e94]: نبذة
+              - link "قراءة المزيد" [ref=e96] [cursor=pointer]:
+                - /url: /browse-index?library=KIN
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - heading "آخر الإضافات" [level=5] [ref=e99]
+        - generic: عرض الكل
+      - generic [ref=e100]:
+        - link "Education, education, education & war /" [ref=e103] [cursor=pointer]:
+          - /url: /index-details/1
+          - article [ref=e104]:
+            - generic [ref=e105]:
+              - heading "Education, education, education & war /" [level=3] [ref=e106]
+              - generic [ref=e107]:
+                - generic [ref=e108]: Kaiser Chiefs (Musical group)
+                - generic [ref=e109]: "2014"
+        - link "Sharḥ Īsāghūjī fī al-manṭiq :" [ref=e112] [cursor=pointer]:
+          - /url: /index-details/2
+          - article [ref=e113]:
+            - generic [ref=e114]:
+              - heading "Sharḥ Īsāghūjī fī al-manṭiq :" [level=3] [ref=e115]
+              - generic [ref=e116]:
+                - generic [ref=e117]: Gelenbevî İsmail Efendi,
+                - generic [ref=e118]: "2017"
+        - link "Darj al-durar fī tafsīr al-āy wa-al-suwar /" [ref=e121] [cursor=pointer]:
+          - /url: /index-details/3
+          - article [ref=e122]:
+            - generic [ref=e123]:
+              - heading "Darj al-durar fī tafsīr al-āy wa-al-suwar /" [level=3] [ref=e124]
+              - generic [ref=e125]:
+                - generic [ref=e126]: Jurjānī, ʿAbd al-Qāhir ibn ʿAbd al-Raḥmān.
+                - generic [ref=e127]: "2008"
+    - generic [ref=e128]:
+      - heading "مواعيد الزيارة" [level=5] [ref=e130]
+      - generic [ref=e135]:
+        - generic [ref=e136]: من الأحد الى الخميس
+        - generic [ref=e138]: (9:00 صباحاً - 3:00 مساءً)
+  - generic [ref=e140]:
+    - paragraph [ref=e142]: "تاريخ آخر تعديل: 19/03/2025 - 4:13 م بتوقيت السعودية"
+    - contentinfo [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - heading "ملخص" [level=6] [ref=e147]
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - link "المطبوع" [ref=e150] [cursor=pointer]:
+                  - /url: /browse-index
+              - listitem [ref=e151]:
+                - link "مكتبة مجمع الملك عبدالعزيز" [ref=e152] [cursor=pointer]:
+                  - /url: /libraries
+              - listitem [ref=e153]:
+                - link "المخطوط" [ref=e154] [cursor=pointer]:
+                  - /url: /browse-index
+              - listitem [ref=e155]:
+                - link "المطبوعات النادرة" [ref=e156] [cursor=pointer]:
+                  - /url: /browse-index
+              - listitem [ref=e157]:
+                - link "تسجيل الدخول" [ref=e158] [cursor=pointer]:
+                  - /url: /my-account
+          - generic [ref=e159]:
+            - heading "روابط مهمة" [level=6] [ref=e160]
+            - list [ref=e161]:
+              - listitem [ref=e162]:
+                - link "مجمع الملك عبدالعزيز للمكتبات الوقفية" [ref=e163] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/home
+              - listitem [ref=e166]:
+                - link "الخصوصية وشروط الاستخدام" [ref=e167] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/privacy-policy/
+              - listitem [ref=e170]:
+                - link "المشاركة الإلكترونية" [ref=e171] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/about-complex/electronic
+              - listitem [ref=e174]:
+                - link "اتفاقية مستوى الخدمة" [ref=e175] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/service-level-agreement
+              - listitem [ref=e178]:
+                - link "الأسئلة الشائعة" [ref=e179] [cursor=pointer]:
+                  - /url: https://kawla.gov.sa/about-complex/help/faqs?tab=repo
+              - listitem [ref=e182]:
+                - link "تواصل معنا" [ref=e183] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - heading "تابعنا على" [level=6] [ref=e189]
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - link [ref=e192] [cursor=pointer]:
+                    - /url: https://www.facebook.com/kawlaa.sa
+                    - img "المستودع الرقمي" [ref=e193]
+                - listitem [ref=e194]:
+                  - link [ref=e195] [cursor=pointer]:
+                    - /url: https://x.com/kawlaa_sa
+                    - img "المستودع الرقمي" [ref=e196]
+                - listitem [ref=e197]:
+                  - link [ref=e198] [cursor=pointer]:
+                    - /url: https://www.instagram.com/kawlaa_sa
+                    - img "المستودع الرقمي" [ref=e199]
+            - generic [ref=e200]:
+              - heading "أدوات الإتاحة والوصول" [level=6] [ref=e201]
+              - list [ref=e202]:
+                - listitem [ref=e203]:
+                  - link [ref=e204] [cursor=pointer]:
+                    - /url: "#"
+                    - img "المستودع الرقمي" [ref=e205]
+                - listitem [ref=e206]:
+                  - link [ref=e207] [cursor=pointer]:
+                    - /url: "#"
+                    - img "المستودع الرقمي" [ref=e208]
+                - listitem [ref=e209]:
+                  - link [ref=e210] [cursor=pointer]:
+                    - /url: https://deaf.dga.gov.sa/
+                    - img "المستودع الرقمي" [ref=e211]
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - link "سياسة الخصوصية" [ref=e215] [cursor=pointer]:
+              - /url: https://kawla.gov.sa/privacy-policy
+            - paragraph [ref=e216]: جميع الحقوق محفوظة لمجمع الملك عبدالعزيز للمكتبات الوقفية © 2025
+            - paragraph [ref=e217]: "تاريخ آخر تعديل: 19/03/2025 - 4:13 م بتوقيت السعودية"
+          - img "المستودع الرقمي" [ref=e218]

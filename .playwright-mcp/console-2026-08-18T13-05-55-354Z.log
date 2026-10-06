@@ -1,0 +1,27 @@
+[     618ms] [LOG] false @ http://147.79.101.170:9000/main-43BJ42FF.js:0
+[     636ms] [LOG] Librareis working fine  @ http://147.79.101.170:9000/main-43BJ42FF.js:0
+[     637ms] [LOG] biblios working fine  @ http://147.79.101.170:9000/main-43BJ42FF.js:0
+[     766ms] [LOG] ar Language changed, updating carousel options................................... @ http://147.79.101.170:9000/main-43BJ42FF.js:0
+[     768ms] [LOG] ar Language changed, updating carousel options................................... @ http://147.79.101.170:9000/main-43BJ42FF.js:0
+[     871ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at e.reinitSwiper (http://147.79.101.170:9000/main-43BJ42FF.js:1:7809)
+    at Object.next (http://147.79.101.170:9000/main-43BJ42FF.js:1:7440)
+    at Wu.next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:3107)
+    at Gt._next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:2790)
+    at Gt.next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:2517)
+    at http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:6369
+    at kr (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:2209)
+    at e.next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:6208)
+    at e.setCurrentLang (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:5:105072)
+    at e.changeLang (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:5:107320) @ http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3
+[     872ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'nativeElement')
+    at e.reinitSwiper (http://147.79.101.170:9000/main-43BJ42FF.js:1:7809)
+    at Object.next (http://147.79.101.170:9000/main-43BJ42FF.js:1:7440)
+    at Wu.next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:3107)
+    at Gt._next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:2790)
+    at Gt.next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:2517)
+    at http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:6369
+    at kr (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:2209)
+    at e.next (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3:6208)
+    at e.setCurrentLang (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:5:105072)
+    at e.changeLang (http://147.79.101.170:9000/chunk-MWZFC2UQ.js:5:107320) @ http://147.79.101.170:9000/chunk-MWZFC2UQ.js:3

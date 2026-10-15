@@ -8,3 +8,7 @@ node_modules/
 /playwright/.auth/
 /explainations
 /tests\todo.spec.ts
+exercise/
+explanations
+.venv/
+.playwright-mcp/

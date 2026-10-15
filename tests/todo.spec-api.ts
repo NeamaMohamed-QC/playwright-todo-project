@@ -18,9 +18,9 @@ test("user should be able to add and delete todo", async ({ page, request, conte
     await registerPage.registerUsingTheApi(user)
 
     // add todo using API
-  //  await new TodoApi(request).AddTodo(user)
+    //  await new TodoApi(request).AddTodo(user)
 
-  //using api from pom
+    //using api from pom
     const newTodoPage = new NewTodoPage(page, request)
     await newTodoPage.getAddNewTaskUsingApi(user)
 
@@ -30,6 +30,6 @@ test("user should be able to add and delete todo", async ({ page, request, conte
     await todoPage.load()
     await todoPage.getDeleteIconByIndex(0)
     const noTodoMessage = await todoPage.getNoTodoMessage()
-    await expect (noTodoMessage).toBeVisible
+    await expect(noTodoMessage).toBeVisible
 })
 

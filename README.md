@@ -1,6 +1,6 @@
 # Playwright ToDo Project
 
-![Playwright Tests](https://github.com/NeamaMohamed-QC/playwright-todo-project/actions/workflows/main.yml/badge.svg)
+[![Playwright Tests](https://github.com/NeamaMohamed-QC/playwright-todo-project/actions/workflows/main.yml/badge.svg)](https://github.com/NeamaMohamed-QC/playwright-todo-project/actions/workflows/main.yml)
 
 End-to-end (UI + API) test automation framework for a ToDo web application, built with **Playwright** and **TypeScript** using the **Page Object Model (POM)** design pattern, with tests running automatically on every push through **GitHub Actions**.
 

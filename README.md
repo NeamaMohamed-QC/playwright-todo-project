@@ -2,7 +2,7 @@
 
 ![Playwright Tests](https://github.com/NeamaMohamed-QC/playwright-todo-project/actions/workflows/main.yml/badge.svg)
 
-End-to-end and API test automation framework for a ToDo web application, built with **Playwright** and **TypeScript** using the **Page Object Model (POM)** design pattern, with tests running automatically on every push through **GitHub Actions**.
+End-to-end (UI + API) test automation framework for a ToDo web application, built with **Playwright** and **TypeScript** using the **Page Object Model (POM)** design pattern, with tests running automatically on every push through **GitHub Actions**.
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ End-to-end and API test automation framework for a ToDo web application, built w
 
 ## Overview
 
-This project automates the main user flows of a ToDo application: creating an account, logging in, and managing todo items. It also includes API tests that verify the backend independently of the UI.
+This project automates the main user flows of a ToDo application: registering a new account, adding todo items, and deleting them. Tests combine API calls (for fast, reliable setup) with UI interaction (for the behavior under test), using the Page Object Model.
 
 **Application under test:** [QAcart ToDo App](https://todo.qacart.com)
 
@@ -30,23 +30,26 @@ This project automates the main user flows of a ToDo application: creating an ac
 | Test framework | Playwright |
 | Language | TypeScript |
 | Design pattern | Page Object Model (POM) |
-| API testing | Playwright API testing (`request` fixture) |
+| API Testing | Playwright API testing (request fixture) |
 | CI/CD | GitHub Actions |
 | Runtime | Node.js |
 
 ## Test Coverage
 
+5 automated tests across 3 spec files.
+
 **UI tests**
-- Register / sign up a new account
-- Log in with valid credentials
-- Add a new todo item
-- Delete a todo item
-- Assertions that verify page state, messages, and todo list content
+- Register a new user through the signup form and verify the welcome message (`user.spec.ts`)
+
+**Hybrid API + UI tests**
+- Register a user through the API, then add a todo item through the UI (`todo2.spec.ts`)
+- Register a user through the API, add a todo through the UI, verify it appears, and delete it (`todo2.spec.ts`)
+- Register a user and add a todo through the API, then delete it through the UI (`todo-api.spec.ts`)
 
 **API tests**
-- API checks for the application's endpoints, validating status codes and response data
+- Register a user through the API (`todo-api.spec.ts`)
 
-> Update this section with the exact scenarios in your `tests` folder. Specific details such as "negative login with a wrong password" make it stronger.
+**Why hybrid?** Registration and todo creation are only *setup* for most scenarios, so they run through the API: faster and less flaky than clicking through the UI. The UI is used for the behavior actually being tested.
 
 ## Project Structure
 
@@ -62,7 +65,7 @@ playwright-todo-project/
 ├── models/
 │   └── User.ts              # User data model
 ├── tests/
-│   ├── todo.spec.ts
+│   ├── todo-api.spec.ts
 │   ├── todo2.spec.ts
 │   └── user.spec.ts
 ├── playwright.config.ts     # Playwright configuration
@@ -139,4 +142,4 @@ Tests run automatically on GitHub Actions on every push. The workflow is in `.gi
 
 **Neama Mohamed**, Software Testing Engineer | ISTQB® CTFL
 
-[LinkedIn](https://www.linkedin.com/in/neamamohamed-3b7275238)
+[LinkedIn](https://www.linkedin.com/in/neama-mohamed-3b7275238)

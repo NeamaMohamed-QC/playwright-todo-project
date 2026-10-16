@@ -3,6 +3,7 @@ import User from '../models/User'
 import RegisterPage from '../Pages/RegisterPage'
 import TodoPage from '../Pages/TodoPage'
 
+// UI test: registers a user through the website's signup form and verifies the welcome message.
 test("user should be registred to the todo website successfully", async ({ page }) => {
   const user = new User()
 

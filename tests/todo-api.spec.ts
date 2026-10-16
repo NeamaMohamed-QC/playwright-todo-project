@@ -4,6 +4,7 @@ import RegisterPage from '../Pages/RegisterPage'
 import NewTodoPage from '../Pages/NewTodoPage'
 import TodoPage from '../Pages/TodoPage'
 
+// API test: registers a user through the API.
 test("user should be be able to register", async ({ page, request, context }) => {
     const user = new User()
     // registeration using API - create user
@@ -11,6 +12,7 @@ test("user should be be able to register", async ({ page, request, context }) =>
     await registerPage.registerUsingTheApi(user)
 })
 
+// Mixed API/UI test: registers and adds a todo through the API, then attempts deletion through the UI.
 test("user should be able to add and delete todo", async ({ page, request, context }) => {
     const user = new User()
     // registeration using API
@@ -18,7 +20,7 @@ test("user should be able to add and delete todo", async ({ page, request, conte
     await registerPage.registerUsingTheApi(user)
 
     // add todo using API
-    //  await new TodoApi(request).AddTodo(user)
+    // await new TodoApi(request).AddTodo(user)
 
     //using api from pom
     const newTodoPage = new NewTodoPage(page, request)
@@ -32,4 +34,3 @@ test("user should be able to add and delete todo", async ({ page, request, conte
     const noTodoMessage = await todoPage.getNoTodoMessage()
     await expect(noTodoMessage).toBeVisible
 })
-
